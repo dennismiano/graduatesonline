@@ -1,0 +1,179 @@
+/*Resets*/
+.form-control{border-radius:0px;}
+.btn{border-radius:0px;}
+/*Styling home-page*/
+.webcta{height:515px;
+			width:100%;
+			background-image:url(../img/img-slider.jpg);}
+.logo-style{padding-top:9px;
+			margin-left:-30px;}
+.titlecta{font-family:'RobotoSlab-Bold';
+			color:#ffffff;
+			animation-duration:1.5s;
+			animation-name:fromleft;}
+@keyframes fromleft{
+			from{
+				margin-left:-100%;
+				color:#d5d5d5;
+				}
+			to{
+				margin-left:0%;
+				color:#ffffff;}
+				}
+				
+@-webkit-keyframes fromleft{
+			from{
+				margin-left:-100%;
+				color:#d5d5d5;
+				}
+			to{
+				margin-left:0%;
+				color:#ffffff;}
+				}
+@-moz-keyframes fromleft{
+			from{
+				margin-left:-100%;
+				color:#d5d5d5;
+				}
+			to{
+				margin-left:0%;
+				color:#ffffff;}
+				}
+.slider_text{font-family:'Roboto-Medium';
+				color:#ffffff;
+				font-size:11pt;
+				padding-bottom:20px;
+				overflow:hidden;
+				animation-duration:3s;
+				animation-name:frombottom;}
+@keyframes frombottom{
+					from{
+					margin-left:-100%;
+					opacity:0;
+					}
+					70%{opacity:0.2;}
+					to{
+					margin-left:0%;
+					opacity:1;}}
+.register_btn{background:#ffffff;
+			padding:15px 20%;
+			font-family:'RobotoSlab-Bold';
+			margin-right:5px;
+			float:left;}
+.login_btn{background:#ffffff;
+			padding:15px 10%;
+			float:left;
+			font-family:'RobotoSlab-Bold';}
+			
+/*Login form at the fold*/
+.loginform{background-color:#cccccc;
+			margin-top:-50px;
+			padding-top:17px;
+			padding-bottom:3px;}
+.log_form_text{float:right;
+				font-family:'RobotoSlab-Bold';
+				color:#0b5fab;}
+@media (max-width: 1024px){.log_form_text{float:left;}}
+.email-field{
+			clear:both;
+			height:40px;
+			width:48%;}
+.pass-field{height:40px;
+			width:26%;}
+.login-btn{height:40px;
+			width:18%;
+			background-color:#de6309;
+			border:none;
+			font-family:'RobotoSlab-Bold';
+			color:#ffffff;}
+@media (max-width: 768px){.email-field{width:100%;}
+							.pass-field{width:100%;
+							margin-top:3px;}
+							.login-btn{width:100%;
+										margin-top:3px;}}
+.partners{margin-top:20px;
+		margin-left:40px;
+		animation-duration:15s;
+		animation-name:fadein;}
+@keyframes fadein{
+					from{
+						opacity:0;
+						}
+					to{opacity:1;
+					  }
+					}
+
+/*styling registration form*/
+.start-head{
+			color:#de6309;}
+.headinpanel{color:#065bac;}		
+/*Styling profile blade*/
+.headingname{font-family:'RobotoSlab-Bold';
+				color:#337ab7;
+				font-size:22pt;
+				}
+.welcome-text{font-family:'RobotoSlab-Bold';
+				color:#757575;
+				font-size:22pt;
+				line-height:15pt;
+				}
+@media (max-width: 1024px){.welcome-text{line-height:22pt;}}
+.setaccount_text{padding-top:20px;
+				font-family:'RobotoSlab-Bold';
+				color:#337ab7;
+				font-size:15pt;
+				line-height:15pt;
+				}
+.specify{font-family:'RobotoSlab-Bold';
+				color:#de6309;
+				font-size:15pt;
+				line-height:5pt;
+				}
+@media (max-width: 1024px){.specify{line-height:15pt;}}
+.form-container{background:#f5f5f5;
+				margin-top:10px;
+				padding-bottom:15px;
+				border:1px solid #cacaca;}
+.category-head{font-family:'RobotoSlab-Regular';
+				font-size:20pt;
+				color:#337ab7;
+				padding:5px 10px 0px 10px;}
+.category-details{color:#757575;
+					font-family:'Roboto-Medium';
+					padding:0px 10px 10px 10px;}
+.button-style{background-color:#337ab7;
+		height:50px;
+		width:90%;
+		margin-left:5%;
+		color:#fff;
+		font-family:'RobotoSlab-Bold';
+		font-size:15pt;
+		border:none;
+		}
+.button-style:hover{background-color:#103a5d;
+		border:none;
+		transition:background-color 0.3s ease;
+		}
+.partners{margin-left:-20px;}
+
+/*Styling student first visit registration form*/
+.saveBtn{
+		width:100%;
+		}
+.panelshadow{
+			box-shadow: 5px 5px 10px #e5e5e5;
+			border-radius:0px;
+			}
+.complete-notify{background-color:#eab7b7;
+				padding:10px 10px;
+				color:white;}
+.button-complete{background-color:#337ab7;
+		height:50px;
+		width:80%;
+		margin-left:10%;
+		color:#fff;
+		font-family:'RobotoSlab-Bold';
+		font-size:15pt;
+		border:none;
+		margin-bottom:70px;
+		}
