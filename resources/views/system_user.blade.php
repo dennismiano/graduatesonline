@@ -1,17 +1,19 @@
 @extends('app')
 
 @section('content')
-<div class="container">
+<div class="container-fluid">
 	<div class="row">
-		<div class="col-md-10 col-md-offset-1">
-			<div class="panel panel-default">
-				<div class="panel-heading">System User</div>
-
-				<div class="panel-body">
-					Goodmorning Boss
-				</div>
-			</div>
+		<div class="col-md-3 main-menu">
+			
 		</div>
+		
+		<div class="col-md-9 grad-content">
+		<h1 class="grad-heading">System Under Construction<h1>
+		<p class="construction">Hello, we regret to inform you that this system is still 
+		undergoing construction</p>
+		<p class="construction">Please bear with us while we get it done</p>
+		</div>
+		
 	</div>
 </div>
 @endsection
