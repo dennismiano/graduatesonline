@@ -177,8 +177,9 @@
 		border:none;
 		margin-bottom:70px;
 		}
+/*Styling graduate school homepage*/
 .main-menu{background:#151515;
-			height:768px;
+			height:678px;
 			margin-top:-20px;
 			}
 .grad-heading{font-size:30pt;
@@ -187,6 +188,20 @@
 			padding-top:150px;
 			
 				}
-.construction{color:3c3c3c;
+.construction{color:#3c3c3c;
 			font-size:18pt;
 			padding-left:150px;}
+.main-menu-title{
+			margin-top:20px;
+			background-color:#b0b0b0;
+			}
+.main-menu-head{
+			font-family:'RobotoSlab-Bold';
+			padding:10px 10px;
+			}
+.grad-text{
+			color:#ffffff;
+			}
+.badge{
+		background-color:#118cd3;
+		}
