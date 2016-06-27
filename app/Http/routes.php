@@ -24,8 +24,5 @@ Route::group(['middleware' =>'auth'], function(){
 	
 	Route::get('verify', 'VerifyRegistration@verify');
 	Route::post('registration', 'DefineuserController@store');
-	Route::get('reg_cont', 'RegistrationController@checkstatus');
-	Route::post('studentpersonaldetails', 'StudentPDetailsController@store');
-	Route::post('studentacademicdetails', 'StudentPDetailsController@storeacademic');
-	Route::post('studenteducationddetails', 'StudentPDetailsController@storeeducation');
+	Route::post('studentdetails', 'DefineuserController@moredetails');
 });

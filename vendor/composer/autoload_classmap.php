@@ -6,14 +6,11 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'CreateAccountdetailsTable' => $baseDir . '/database/migrations/2016_05_12_081601_create_accountdetails_table.php',
     'CreateGroupPermissionsTable' => $baseDir . '/database/migrations/2016_05_09_234520_create_group_permissions_table.php',
     'CreateGroupsTable' => $baseDir . '/database/migrations/2016_05_09_231720_create_groups_table.php',
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
     'CreatePermissionsTable' => $baseDir . '/database/migrations/2016_05_09_232615_create_permissions_table.php',
-    'CreateStudentAcademicDetailsTable' => $baseDir . '/database/migrations/2016_06_06_214012_create_student_academic_details_table.php',
-    'CreateStudentEducationDetailsTable' => $baseDir . '/database/migrations/2016_06_07_125936_create_student_education_details_table.php',
-    'CreateStudentPersonalDetailsTable' => $baseDir . '/database/migrations/2016_06_03_114004_create_student_personal_details_table.php',
+    'CreateStudentdetailsTable' => $baseDir . '/database/migrations/2016_06_26_053715_create_studentdetails_table.php',
     'CreateUsergroupsTable' => $baseDir . '/database/migrations/2016_05_11_192503_create_usergroups_table.php',
     'CreateUsersTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_users_table.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',

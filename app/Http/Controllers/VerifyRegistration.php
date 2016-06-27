@@ -2,6 +2,7 @@
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use App\Studentdetails;
 use App\Usergroup as Usergroup;
 use App\User;
 use Illuminate\Http\Request;
@@ -18,11 +19,18 @@ class VerifyRegistration extends Controller {
 	{	$column = 'user_id';
 		$user_id = Auth::user()->id;
 		$groups = Usergroup::where(array($column => $user_id))->count();
+		$studentdetails = Studentdetails::where(array($column => $user_id))->count();
 		if($groups === 0){
 		return view('profile');
 		}
-		else{
-			return redirect('reg_cont');
+		else 
+			if ($studentdetails === 0)
+				{
+				return view('moredetails');
+				}
+		else
+		{
+		return view('studenthome');
 		}
 	}
 }

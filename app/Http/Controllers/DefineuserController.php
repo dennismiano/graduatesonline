@@ -3,6 +3,7 @@
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Usergroup;
+use App\Studentdetails;
 use Input;
 use Auth;
 use View;
@@ -35,21 +36,33 @@ class DefineuserController extends Controller {
 								$column = 'user_id';
 								$user_group = Usergroup::where(array($column => $user_group->user_id))->first();
 								if($user_group->group_id === 1){
-									Session::flash('personal', '');
-									Session::flash('academic', '');
-									Session::flash('education', '');
-									return view('student');
+								return view('moredetails');
+									//return view('student');
 									}
 								else if($user_group->group_id === 2){
-										return view('supervisor');
+										//return view('supervisor');
 										}
 								else if($user_group->group_id === 3){
-										return view('mentor');
+										//return view('mentor');
 										}
 						
 						}
 						else{ echo 'You have already set up the user type'; }
 		}
 
+	}
+	
+	public function moredetails(){
+	
+	$studentdetails = new Studentdetails;
+	$studentdetails->user_id = Auth::user()->id;
+	$studentdetails->regnumber = Input::get('regnumber');
+	$studentdetails->campus = Input::get('campus');
+	$studentdetails->faculty = Input::get('faculty');
+	$studentdetails->program = Input::get('program');
+	$studentdetails->save();
+	
+	return view('studenthome');
+	
 	}
 }

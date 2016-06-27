@@ -33,7 +33,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">Graduates Onlines</a>
+				<a class="navbar-brand" href="{{ url('/') }}"><img class="app-logo-style" src="{{ asset('/img/app-logo.png') }}"></a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

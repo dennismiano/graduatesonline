@@ -106,40 +106,48 @@
 /*styling registration form*/
 .start-head{
 			color:#de6309;}
-.headinpanel{color:#065bac;}		
+.headinpanel{color:#065bac;}
+.app-logo-style{margin-top:-15px;}	
 /*Styling profile blade*/
 .headingname{font-family:'RobotoSlab-Bold';
 				color:#337ab7;
-				font-size:22pt;
+				font-size:18pt;
 				}
 .welcome-text{font-family:'RobotoSlab-Bold';
 				color:#757575;
-				font-size:22pt;
+				font-size:17pt;
 				line-height:15pt;
 				}
 @media (max-width: 1024px){.welcome-text{line-height:22pt;}}
 .setaccount_text{padding-top:20px;
 				font-family:'RobotoSlab-Bold';
 				color:#337ab7;
-				font-size:15pt;
+				font-size:12pt;
 				line-height:15pt;
 				}
 .specify{font-family:'RobotoSlab-Bold';
 				color:#de6309;
-				font-size:15pt;
+				font-size:12pt;
 				line-height:5pt;
 				}
 @media (max-width: 1024px){.specify{line-height:15pt;}}
-.form-container{background:#f5f5f5;
+.form-container{
 				margin-top:10px;
+				margin-right:10px;
+				margin-left:10px;
 				padding-bottom:15px;
-				border:1px solid #cacaca;}
+				}
+.profile-icons{
+				display:block;
+				margin-left:auto;
+				margin-right:auto;}
 .category-head{font-family:'RobotoSlab-Regular';
-				font-size:20pt;
-				color:#337ab7;
-				padding:5px 10px 0px 10px;}
+				font-size:15pt;
+				color:#707070;
+				text-align: center;
+				}
 .category-details{color:#757575;
-					font-family:'Roboto-Medium';
+					text-align:center;
 					padding:0px 10px 10px 10px;}
 .button-style{background-color:#337ab7;
 		height:50px;
@@ -205,3 +213,55 @@
 .badge{
 		background-color:#118cd3;
 		}
+
+/* Styling Student home Page*/
+.main-space{
+			background-color:#e5e5e5;
+			margin-top:-20px;
+			}
+.profile-details{
+				padding-bottom:10px;
+				padding-top:10px;
+				}
+.profile-pic{
+			float:left;
+			padding-right:10px;
+			}
+.user-name{
+			font-size:14pt;
+			padding-top:15px;
+			margin:0px;
+		  }
+.user-type{
+			font-size:13pt;
+			color:#04437f;
+			line-height:13pt;
+		  }
+.change-icon{
+			clear:left;
+			padding-right:10px;
+			float:left;
+			}
+.rtc-head{
+			clear:left;
+			padding-top:15px;
+		}
+.question-post{
+			  background-color:#ffffff;
+			  padding:10px 10px;
+			  border:1px solid #d1d1d1;
+			  }
+.postarea{
+		border:0;
+		outline:0;
+		background:transparent;
+		border-top:1px solid #e8e8e8;
+		border-bottom:1px solid #e8e8e8;
+		 }
+.post-btn{
+		 background-color:#e05c00;
+		 color:white;
+		 margin-top:5px;
+		 width:40%;
+		 margin-left:60%;
+		 }
